@@ -1,13 +1,11 @@
 
-import { lazy, Suspense } from 'react';
+import {  Suspense } from 'react';
 import "./globals.css";
 import { Poppins } from "next/font/google";
-
-// Lazy load all components
-const Loading = lazy(() => import('@/components/loading'));
-const CustomCursor = lazy(() => import('@/components/CustomCursor'));
-const Navbar = lazy(() => import('@/components/Navbar'));
-const Footer = lazy(() => import('@/components/Footer'));
+import Loading from '@/components/Loading';
+import CustomCursor from '@/components/CustomCursor';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 
 const poppins = Poppins({
   subsets: ['latin'],
