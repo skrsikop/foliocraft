@@ -26,7 +26,7 @@ const Footer = () => {
           >
             <Link href='/' className='flex items-center gap-2'>
               <Image
-                src='/images/logo.png'
+                src='/logo.png'
                 alt='FolioCraft Logo'
                 width={40}
                 height={40}
