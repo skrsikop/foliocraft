@@ -1,36 +1,145 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Modern Next.js Website Template "Folio Craft"
 
-## Getting Started
+Welcome to the ** Folio Craft Modern Next.js Website Template**, a sleek, high-performance, and fully customizable template built with the latest web technologies. This template is perfect for developers and businesses looking to create stunning, modern websites with ease. It includes 10+ pages, 10+ reusable components, and is fully responsive, ensuring a seamless experience across all devices.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Built with Modern Technologies**:
+  - **Next.js**: For server-side rendering and optimized performance.
+  - **Tailwind CSS v4**: Utility-first CSS framework for rapid UI development.
+  - **Framer Motion**: For smooth and stunning animations.
+  - **React Icons & Lucide Icons**: A wide range of icons for your design needs.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **10+ Pre-designed Pages**:
+  - Home
+  - About
+  - Portfolio
+  - Portfolio Details
+  - Services
+  - FAQ
+  - Pricing
+  - Team
+  - Blog
+  - Blog Details
+  - Contact
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **10+ Reusable Components**:
+  - Modern Header and Footer
+  - Responsive Navigation
+  - Animated Buttons
+  - Testimonials
+  - Pricing Cards
+  - Blog Cards
+  - And more!
 
-## Learn More
+- **Fully Customizable**:
+  - All website data can be easily modified in `src/data/index.js`.
+  - Tailwind CSS configuration allows for easy styling changes.
 
-To learn more about Next.js, take a look at the following resources:
+- **Mobile Responsive**:
+  - Fully optimized for mobile, tablet, and desktop devices.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **SEO-Friendly**:
+  - Built with best practices for search engine optimization.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Fast and Lightweight**:
+  - Optimized for performance with minimal load times.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Follow these steps to set up the template on your local machine:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-repo/nextjs-template.git
+2. Navigate to the Project Directory:
+  ## cd nextjs-template
+3. install Dependencies:
+    ## npm install
+    # or
+    ## yarn install
+4. Run the Development Server:
+    ## npm run dev
+    # or
+    ## yarn dev
+5. Open Your Browser:
+    ## Visit http://localhost:3000 to view the template.
+
+## Customization
+  All the data and content of the website can be easily customized by editing the src/data/index.js file. This file contains all the text, links, and other dynamic content used throughout the template.
+
+ ## export const homeData = {
+  title: "Welcome to Our Modern Website",
+  description: "We provide the best services for your business.",
+  buttonText: "Get Started",
+  buttonLink: "/services",
+}; ## 
+
+
+## You can also customize the styling by modifying the Tailwind CSS configuration in tailwind.config.js.
+
+## Pages and Components
+## Pages:
+
+  1. Home: A stunning landing page with animations and call-to-action sections.
+
+  2. About: Showcase your team and company mission.
+
+  3. Portfolio: Display your work with a modern grid layout.
+
+  4. Portfolio Details: Detailed view of individual portfolio items.
+
+  5. Services: Highlight your services with icons and descriptions.
+
+  6. FAQ: Answer common questions in an organized manner.
+
+  7. Pricing: Display pricing plans with a clean design.
+
+  8. Team: Introduce your team members with photos and bios.
+
+  9. Blog: Share your latest articles and updates.
+
+  10. Blog Details: Detailed view of individual blog posts.
+
+  11. Contact: A responsive contact form with validation.
+
+## Components:
+
+    Header: Responsive navigation with dropdown menus.
+
+    Footer: Social media links and quick links.
+
+    Animated Buttons: Buttons with hover and click animations.
+
+    Testimonials: Display client feedback with a carousel.
+
+    Pricing Cards: Showcase pricing plans with a modern design.
+
+    Blog Cards: Display blog posts with images and excerpts.
+
+## Support
+  If you have any questions or need assistance, feel free to contact us through the Envato messaging system. We are here to help you make the most of this template!
+
+## License
+  This template is licensed under the Envato Regular License. For more details, please refer to the license terms.
+
+## Credits
+  Next.js: https://nextjs.org
+
+  Tailwind CSS: https://tailwindcss.com
+
+  Framer Motion: https://www.framer.com/motion/
+
+  React Icons: https://react-icons.github.io/react-icons/
+
+  Lucide Icons: https://lucide.dev
+
+
+
+ ## support |  email: skrsikop@gmail.com 
+
+Thank you for choosing the Modern Next.js Website Template! We hope it helps you create amazing websites with ease. Happy coding! 🚀 
